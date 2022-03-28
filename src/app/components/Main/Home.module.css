@@ -1,0 +1,15 @@
+.content {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem; 
+}
+.starting {
+    margin: 3rem auto;
+    text-align: center;
+  }
+  
+  .starting h1 {
+    font-size: 5rem;
+  }

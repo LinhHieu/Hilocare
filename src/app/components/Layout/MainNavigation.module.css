@@ -1,0 +1,118 @@
+.header {
+    width: 98%;
+    height: 55px;
+    background-color: #F18701;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2% 0 0;
+  }
+  
+  .logo {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+  }
+
+  .header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .header li {
+    margin: 0 1rem;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .header button {
+    font: inherit;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .header a:hover {
+    color: #2C73D2;
+  }
+  
+  .header button:hover {
+    background-color: #2C73D2;
+    color: #3A5683;
+  }
+  .sidebarnav {
+    background-color: #1c1d1d;
+    width: 225px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: -20%;
+    transition: 350ms;
+    margin-left: 0px;
+  }
+  .sidebarnav.active  {
+    left: 0;
+    transition: 350ms;
+  }
+  .sidebarwrap {
+    width: 100%;
+  }
+
+  .sidebarlink {
+    display: flex;
+    color: #e1e9fc;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    height: 25px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .sidebarlink:hover {
+    background: #252831;
+    border-left: 4px solid #DAEEF7;
+    cursor: pointer;
+  }
+
+  .sidebaricon {
+    margin-left: 0.5rem;
+    font-size: 2rem;
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .dropdownlink {
+    background: #414757;
+    height: 25px;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 12px;
+  }
+  .dropdownlink:hover {
+    background: #DAEEF7;
+    cursor: pointer;
+  }
+
+  .sidebarlabel {
+    margin-left: 16px;
+  }

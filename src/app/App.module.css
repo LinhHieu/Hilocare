@@ -1,0 +1,12 @@
+.App {
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    transition: 350ms;
+    text-align: center;
+}
+.App.active{
+    margin-left: 225px;
+    transition: 350ms;
+}
+

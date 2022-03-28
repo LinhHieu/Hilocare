@@ -1,0 +1,99 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .table td, .table th {
+    /* border: 1px solid rgb(66, 65, 65); */
+    padding: 8px;
+  }
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #c9dff0;
+  color: black;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.search {
+  background-color: #D4d4f7;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.search button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #7678ED;
+  background-color: #7678ED;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.search button:hover,
+.search button:active {
+  background-color: #3D348B;
+  border-color: #3D348B;
+}
+
+.searchform {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.searchcontrol label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.searchcontrol input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.searchcontrol select {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 21rem;
+  max-width: 100%;
+}
+
+.searchcontrol option {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+.searchbutton {
+  text-align: right;
+}
+.click {
+  cursor: pointer;
+}
